@@ -1,0 +1,69 @@
+p1 {
+  background-color: rgb(214, 235, 228);
+}
+.mydiv {
+  border: px outset black;
+  background-color: rgb(237, 202, 196);
+  text-align: center;
+}
+.tdiv {
+  border: px outset black;
+  background-color: rgb(237, 202, 196);
+
+  text-align: center;
+}
+.udiv {
+  border: px outset black;
+  background-color: rgb(237, 202, 196);
+
+  text-align: center;
+}
+.mdiv {
+  border: px outset black;
+  background-color: rgb(237, 202, 196);
+
+  text-align: center;
+}
+
+p2 {
+  background-color: rgb(214, 235, 228);
+}
+p3 {
+  background-color: rgb(214, 235, 228);
+}
+ul {
+  background-color: rgb(214, 235, 228);
+}
+
+.right-panel {
+  width: 100%;
+  float: right;
+}
+.left-panel {
+  width: 50vh;
+  float: left;
+}
+
+.left-panel {
+  background-color: whitesmoke;
+}
+.right-panel {
+  background-color: whitesmoke;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.right-panel {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
